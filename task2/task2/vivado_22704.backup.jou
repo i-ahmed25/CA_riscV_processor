@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Apr 27 08:48:26 2024
+# Process ID: 22704
+# Current directory: C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task2/task2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28228 C:\Users\ikhla\Desktop\semester 4\CA\project\test2\task2\task2\task2.xpr
+# Log file: C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task2/task2/vivado.log
+# Journal file: C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task2/task2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task2/task2/task2.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/ALU.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/Control_unit.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/Data_memory.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/Instruction_Parser.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/Instruction_memory.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/Mux.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/Program_counter.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/RISC_V_processor.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/Register_file.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/adder.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/alu_control.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/branching_unit.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/exmemreg.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/forwarding unit.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/idexreg.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/ifidreg.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/immgen.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/memwbreg.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task2/mux_3to1.v" \
+"../../../../task2.srcs/sim_1/new/riscV_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

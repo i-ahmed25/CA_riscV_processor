@@ -1,0 +1,22 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/ikhla/Desktop/semester 4/CA/project/lab11/lab11.srcs/sources_1/new/alu_1bit.v,1712423992,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/lab11/lab11.srcs/sources_1/new/alu_64bit.v,,alu_1bit,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/lab11/lab11.srcs/sources_1/new/alu_8bit.v,1712424309,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/lab11/lab11.srcs/sources_1/new/alu_control.v,,alu_8bit,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/ALU.v,1714160216,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Control_unit.v,,alu_64bit,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Control_unit.v,1714160195,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Data_memory.v,,control_unit,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Data_memory.v,1714202510,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Instruction_Parser.v,,data_memory,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Instruction_Parser.v,1714160226,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Instruction_memory.v,,parser,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Instruction_memory.v,1714219857,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Mux.v,,instruction_memory,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Mux.v,1714160173,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Program_counter.v,,mux,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Program_counter.v,1703408120,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/RISC_V_processor.v,,program_counter,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/RISC_V_processor.v,1703408120,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Register_file.v,,riscV_processor,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Register_file.v,1703408120,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/adder.v,,register_file,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/adder.v,1703408120,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/alu_control.v,,adder,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/alu_control.v,1703408120,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/branching_unit.v,,alu_control,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/branching_unit.v,1703408120,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/immgen.v,,branching_unit,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/immgen.v,1703408120,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task1/lab11.srcs/sim_1/new/riscV_tb.v,,imm_gen,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/test/lab11/lab11.srcs/sources_1/new/Branch_unit.v,1714042229,verilog,,C:/Users/ikhla/Desktop/semester 4/CA/project/test/lab11/lab11.srcs/sources_1/new/adder.v,,Branch_unit,,,,,,,,
+C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task1/lab11.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+,,,,,,riscV_tb,,,,,,,,

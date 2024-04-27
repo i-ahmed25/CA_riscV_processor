@@ -1,0 +1,41 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_64_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/Control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/Data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/Instruction_Parser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InsParser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/Instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/Program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/RISC_V_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscV_processor
+INFO: [VRFC 10-2458] undeclared symbol memwbRegWrite, assumed default net type wire [C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/RISC_V_processor.v:70]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/Register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registerFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/alu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/branching_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branching_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/exmemreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exmemreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/forwarding unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwardingunit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/idexreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module idexreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/ifidreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ifidreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/immgen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/memwbreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memwbreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task2/mux_3to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task2/task2/task2.srcs/sim_1/new/riscV_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscV_tb

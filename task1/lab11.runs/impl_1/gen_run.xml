@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1713784057">
+  <File Type="PA-TCL" Name="riscV_processor.tcl"/>
+  <File Type="REPORTS-TCL" Name="riscV_processor_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="riscV_processor.msk"/>
+  <File Type="RDI-RDI" Name="riscV_processor.vdi"/>
+  <File Type="BG-BIT" Name="riscV_processor.bit"/>
+  <File Type="BG-DRC" Name="riscV_processor.drc"/>
+  <File Type="BG-BGN" Name="riscV_processor.bgn"/>
+  <File Type="BG-BIN" Name="riscV_processor.bin"/>
+  <File Type="BITSTR-RBT" Name="riscV_processor.rbt"/>
+  <File Type="BITSTR-NKY" Name="riscV_processor.nky"/>
+  <File Type="BITSTR-BMM" Name="riscV_processor_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="riscV_processor.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="riscV_processor.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="riscV_processor.ltx"/>
+  <File Type="RCFI_FILE" Name="riscV_processor.rcfi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="riscV_processor_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="riscV_processor.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="riscV_processor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="riscV_processor_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="riscV_processor_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="riscV_processor_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="riscV_processor_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="riscV_processor_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="riscV_processor_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="riscV_processor_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="riscV_processor_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="riscV_processor_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="riscV_processor_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="riscV_processor_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="riscV_processor.pdi"/>
+  <File Type="CFI_FILE" Name="riscV_processor.cfi"/>
+  <File Type="RNPI_FILE" Name="riscV_processor.rnpi"/>
+  <File Type="NPI_FILE" Name="riscV_processor.npi"/>
+  <File Type="RBD_FILE" Name="riscV_processor.rbd"/>
+  <File Type="PLACE-UTIL" Name="riscV_processor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="riscV_processor_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="riscV_processor_io_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="riscV_processor_control_sets_placed.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/ALU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Control_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Data_memory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Instruction_Parser.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Instruction_memory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Mux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Program_counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Register_file.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/alu_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/branching_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/immgen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/RISC_V_processor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="riscV_processor"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Apr 26 12:46:06 2024
+# Process ID: 18400
+# Current directory: C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26836 C:\Users\ikhla\Desktop\semester 4\CA\project\test2\lab11\lab11.xpr
+# Log file: C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/vivado.log
+# Journal file: C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_8bit.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_8bit.v}}
+file delete -force {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_8bit.v}
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_1bit.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_1bit.v}}
+file delete -force {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_1bit.v}
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/riscV_processor.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/riscV_processor.v}}
+file delete -force {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/riscV_processor.v}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_control.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/data_memory.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/Branch_unit.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_64bit.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/adder.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/control_unit.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/imm_gen.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/instruction_memory.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/mux.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/parser.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/program_counter.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/register_file.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_control.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/data_memory.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/Branch_unit.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_64bit.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/adder.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/control_unit.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/imm_gen.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/instruction_memory.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/mux.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/parser.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/program_counter.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/register_file.v}}
+file delete -force {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_control.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/data_memory.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/Branch_unit.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/alu_64bit.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/adder.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/control_unit.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/imm_gen.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/instruction_memory.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/mux.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/parser.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/program_counter.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/test2/lab11/lab11.srcs/sources_1/new/register_file.v}
+add_files -norecurse {{C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Instruction_memory.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/RISC_V_processor.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/alu_control.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Data_memory.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Program_counter.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Mux.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/branching_unit.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Register_file.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/ALU.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Control_unit.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/Instruction_Parser.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/adder.v} {C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/immgen.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source riscV_tb.tcl
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source riscV_tb.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source riscV_tb.tcl
+close_sim
+launch_simulation
+source riscV_tb.tcl
+close_sim
+launch_simulation
+source riscV_tb.tcl
+close_sim

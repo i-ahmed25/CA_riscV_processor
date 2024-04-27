@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/2_1mux.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/EXMEM.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/ForwardingUnit.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/IDEX.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/IFID.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/MEMWB.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/ThreebyOneMux.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/adder.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/alu_64bit.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/alu_control.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/branching_unit.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/control_unit.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/data_memory.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/design.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/hazard_detection_unit.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/imm_data_extractor.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/instruction_memory.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/instruction_parser.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/pipeline_flush.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/program_counter.v" \
+"../../../../../../../material/saif/RISC-V-processor-pipelined-main/task3/reg_file.v" \
+"../../../../task3.srcs/sim_1/new/riscV_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

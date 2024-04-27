@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Apr 27 22:54:20 2024
+# Process ID: 5376
+# Current directory: C:/Users/ikhla/Desktop/semester 4/CA/project_repo/CA_riscV_processor/task3/task3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1532 C:\Users\ikhla\Desktop\semester 4\CA\project_repo\CA_riscV_processor\task3\task3\task3.xpr
+# Log file: C:/Users/ikhla/Desktop/semester 4/CA/project_repo/CA_riscV_processor/task3/task3/vivado.log
+# Journal file: C:/Users/ikhla/Desktop/semester 4/CA/project_repo/CA_riscV_processor/task3/task3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ikhla/Desktop/semester 4/CA/project_repo/CA_riscV_processor/task3/task3/task3.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task3/task3' since last save.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/2_1mux.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/2_1mux.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/EXMEM.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/EXMEM.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/ForwardingUnit.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/ForwardingUnit.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/IDEX.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/IDEX.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/IFID.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/IFID.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/MEMWB.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/MEMWB.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/ThreebyOneMux.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/ThreebyOneMux.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/adder.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/adder.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/alu_64bit.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/alu_64bit.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/alu_control.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/alu_control.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/branching_unit.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/branching_unit.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/control_unit.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/control_unit.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/data_memory.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/data_memory.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/hazard_detection_unit.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/hazard_detection_unit.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/imm_data_extractor.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/imm_data_extractor.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/instruction_memory.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/instruction_memory.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/instruction_parser.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/instruction_parser.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/pipeline_flush.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/pipeline_flush.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/program_counter.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/program_counter.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/reg_file.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/reg_file.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/material/saif/RISC-V-processor-pipelined-main/task3/design.v'; using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task3/design.v' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/ikhla/Desktop/semester 4/CA/project_repo/CA_riscV_processor/task3/task3/task3.srcs/sources_1', nor could it be found using path 'C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task3/task3/task3.srcs/sources_1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
