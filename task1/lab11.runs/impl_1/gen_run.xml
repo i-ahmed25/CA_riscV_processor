@@ -36,97 +36,93 @@
   <File Type="RNPI_FILE" Name="riscV_processor.rnpi"/>
   <File Type="NPI_FILE" Name="riscV_processor.npi"/>
   <File Type="RBD_FILE" Name="riscV_processor.rbd"/>
-  <File Type="PLACE-UTIL" Name="riscV_processor_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="riscV_processor_utilization_placed.pb"/>
-  <File Type="PLACE-IO" Name="riscV_processor_io_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="riscV_processor_control_sets_placed.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/ALU.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/ALU.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Control_unit.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Control_unit.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Data_memory.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Data_memory.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Instruction_Parser.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Instruction_Parser.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Instruction_memory.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Instruction_memory.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Mux.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Mux.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Program_counter.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Program_counter.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/Register_file.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Register_file.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/adder.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/adder.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/alu_control.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/alu_control.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/branching_unit.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/branching_unit.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/immgen.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/immgen.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../material/saif/RISC-V-processor-pipelined-main/task1/RISC_V_processor.v">
+    <File Path="$PPRDIR/../../../project/material/saif/RISC-V-processor-pipelined-main/task1/RISC_V_processor.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -170,5 +166,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

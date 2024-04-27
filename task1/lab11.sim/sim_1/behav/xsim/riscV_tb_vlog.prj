@@ -1,18 +1,18 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/ALU.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/Control_unit.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/Data_memory.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/Instruction_Parser.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/Instruction_memory.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/Mux.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/Program_counter.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/RISC_V_processor.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/Register_file.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/adder.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/alu_control.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/branching_unit.v" \
-"../../../../../../material/saif/RISC-V-processor-pipelined-main/task1/immgen.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/ALU.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Control_unit.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Data_memory.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Instruction_Parser.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Instruction_memory.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Mux.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Program_counter.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/RISC_V_processor.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/Register_file.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/adder.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/alu_control.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/branching_unit.v" \
+"../../../../../../../project/material/saif/RISC-V-processor-pipelined-main/task1/immgen.v" \
 "../../../../lab11.srcs/sim_1/new/riscV_tb.v" \
 
 # compile glbl module

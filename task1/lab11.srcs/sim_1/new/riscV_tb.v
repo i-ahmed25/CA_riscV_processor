@@ -23,37 +23,37 @@
 module riscV_tb();
 reg clk;
 reg reset;
-wire pc_out;
-wire adder1_out;
-wire adder2_out;
-wire pc_in;
+wire [63:0] pc_out;
+wire [63:0] adder1_out;
+wire [63:0] adder2_out;
+wire [63:0] pc_in;
 wire zero;
-wire instruction;
-wire opcode;
-wire rd;
-wire funct3;
-wire rs1;
-wire rs2;
-wire funct7;
-wire writedata;
-wire readdata1;
-wire readdata2;
-wire branch, memread, memtowire, memwrite, alusrc, wirewrite;
-wire aluop;
-wire immdata;
-wire mux2out;
-wire operation;
-wire aluout;
-wire datamemoryreaddata;
-  wire [63:0] index1;
-  wire [63:0] index2;
-  wire [63:0] index3;
-  wire [63:0] index4;
-  wire [63:0] index5;
-  wire [63:0] index6;
-  wire [63:0] index7;
-  wire [63:0] index8;
-  
+wire [31:0] instruction;
+wire [6:0] opcode;
+wire [4:0] rd;
+wire [2:0] funct3;
+wire [4:0] rs1;
+wire [4:0] rs2;
+wire [6:0] funct7;
+wire [63:0]writedata;
+wire [63:0]readdata1;
+wire [63:0]readdata2;
+wire branch, memread, memtoreg, memwrite, alusrc, regwrite;
+wire [1:0] aluop;
+wire [63:0] immdata;
+wire [63:0] mux2out;
+wire [3:0] operation;
+wire [63:0] aluout;
+wire [63:0] datamemoryreaddata;
+wire [63:0] index1;
+wire [63:0] index2;
+wire [63:0] index3;
+wire [63:0] index4;
+wire [63:0] index5;
+wire [63:0] index6;
+wire [63:0] index7;
+wire [63:0] index8;
+
 riscV_processor processor (
 clk,
 reset,
@@ -87,7 +87,7 @@ index5,
 index6,
 index7,
 index8
-    );
+);
  
 initial begin
 clk = 0; reset = 1'b1;

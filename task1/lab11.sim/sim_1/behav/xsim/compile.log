@@ -24,7 +24,7 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/C
 INFO: [VRFC 10-311] analyzing module branching_unit
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/material/saif/RISC-V-processor-pipelined-main/task1/immgen.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module imm_gen
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task1/lab11.srcs/sim_1/new/riscV_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project_repo/CA_riscV_processor/task1/lab11.srcs/sim_1/new/riscV_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module riscV_tb
-INFO: [VRFC 10-2458] undeclared symbol memtoreg, assumed default net type wire [C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task1/lab11.srcs/sim_1/new/riscV_tb.v:75]
-INFO: [VRFC 10-2458] undeclared symbol regwrite, assumed default net type wire [C:/Users/ikhla/Desktop/semester 4/CA/project/test2/task1/lab11.srcs/sim_1/new/riscV_tb.v:75]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ikhla/Desktop/semester 4/CA/project_repo/CA_riscV_processor/task1/lab11.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
